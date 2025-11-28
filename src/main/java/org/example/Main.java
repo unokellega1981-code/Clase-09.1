@@ -35,7 +35,6 @@ public class Main {
             System.out.print("Introduce la presión: ");
             double presion = scanner.nextDouble();
 
-
             station.setMeasurements(temperatura, humedad, presion);
         }
 
