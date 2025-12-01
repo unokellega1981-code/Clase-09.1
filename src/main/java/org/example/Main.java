@@ -1,3 +1,12 @@
+// Ejercicio
+
+// Vas a simular una pequeña estación meteorológica que mide temperatura, humedad y presión atmosférica.
+// Cada vez que la estación actualiza sus datos, todos los dispositivos registrados deben ser notificados automáticamente.
+
+// Esto reproduce exactamente el comportamiento del patrón Observer:
+// Un Sujeto (Subject) → La estación meteorológica.
+// Varios Observadores (Observers) → Dispositivos que reaccionan cuando hay nuevos datos.
+
 package org.example;
 
 import org.example.Classes.AlertDisplay;
